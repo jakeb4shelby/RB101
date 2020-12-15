@@ -1,0 +1,118 @@
+en:
+  welcome: |
+   Welcome to the calculator! Enter 1 for English
+   ¡Bienvenido a la calculadora! Ingrese 2 para español
+   Bienvenue dans la calculatrice! Entrez 3 pour le français
+   Benvenuto nella calcolatrice! Immettere 4 per l'italiano
+  valid_language: |
+   That is not a valid option.
+   For English - input 1
+   Per lo spagnolo - ingrese  2
+   Per il francese - immettere  3
+   Per l'italiano - inserire 4
+  name: "Enter your name:"
+  valid_name: "Make sure to use a valid name."
+  greeting: "Hi %{name}!"
+  input_number: "Input a number"
+  number1: "Input the first number"
+  number2: "Input the second number"
+  invalid_number: "Hmm...that doesn't look like a valid number"
+  select_operator: "Must choose 1, 2, 3 or 4"
+  operator_prompt:  | 
+   What operation would you like to perform? 
+    1) Addition
+    2) Subtraction
+    3) Multiplication
+    4) Division
+  zero_division_error: | 
+   Cannot divide by zero
+   
+  adding: "....Adding the two numbers...."
+  subtracting: "....Subtracting the two numbers...."
+  multiplying: "....Multiplying the two numbers"
+  dividing: "....Dividing the two numbers...."
+  result_prompt: "The result is %{result}"
+  perform_calculation: "Do you want to perform another calcuation? (Y to calculate again)"
+  invalid_answer: "Invalid answer. You must enter Y for Yes or N for No"
+  thank_you: "Thank you for using calculator. Goodbye!"
+
+es:
+  name: "Introduzca su nombre"
+  valid_name: "Asegúrate de usar un nombre válido"
+  greeting: "Hola %{name}!"
+  input_number: "Ingrese un número"
+  number1: "Ingrese el primer número"
+  number2: "Ingrese el segundo número"
+  invalid_number: "Eso no parece un número válido"
+  select_operator: "Debe elegir 1, 2, 3 o 4"
+  operator_prompt:  | 
+   ¿Qué operación le gustaría realizar? 
+    1) Adición
+    2) Sustracción
+    3) Multiplicación
+    4) División"
+  zero_division_error: | 
+   No se puede dividir por cero
+   
+  adding: "....Sumando los dos números...."
+  subtracting: "....Restando los dos números...."
+  multiplying: "....Multiplicando los dos números...."
+  dividing: "....Dividiendo los dos números...."
+  result_prompt: "El resultado es %{result}"
+  perform_calculation: "¿Quieres realizar otro cálculo? (Y para calcular de nuevo)"
+  invalid_answer: "Respuesta invalida. Debe ingresar S para Sí o N para No"
+  thank_you: "Gracias por usar la calculadora. ¡Adiós!"
+
+fr:
+  name: "Entrez votre nom"
+  valid_name: "Assurez-vous d'utiliser un nom valide"
+  greeting: "Salut %{name}!"
+  input_number: "Entrez un nombre"
+  number1: "Entrez le premier chiffre"
+  number2: "Entrez le deuxième chiffre"
+  invalid_number: "Cela ne ressemble pas à un numéro valide"
+  select_operator: "Doit choisir 1, 2, 3 ou 4"
+  operator_prompt:  | 
+   Quelle opération souhaitez-vous effectuer? 
+    1) Une addition
+    2) Soustraction
+    3) Multiplication
+    4) Division"
+  zero_division_error: | 
+   Impossible de diviser par zéro
+   
+  adding: "....Addition des deux nombres...."
+  subtracting: "....Soustraire les deux nombres...."
+  multiplying: "....Multiplier les deux nombres"
+  dividing: "....Diviser les deux nombres...."
+  result_prompt: "Le résultat est %{result}"
+  perform_calculation: "Voulez-vous effectuer un autre calcul? (O pour Oui ou N pour Non)"
+  invalid_answer: "Réponse invalide. Vous devez entrer O pour Oui ou N pour Non"
+  thank_you: "Merci d'utiliser la calculatrice. Au revoir!"
+
+it:
+  name: "Inserisci il tuo nome"
+  valid_name: "Assicurati di utilizzare un nome valido"
+  greeting: "Ciao %{name}!"
+  input_number: "Immettere un numero"
+  number1: "Immettere il primo numero"
+  number2: "Immettere il secondo numero"
+  invalid_number: "Non sembra un numero valido"
+  select_operator: "Devi scegliere 1, 2, 3 o 4"
+  operator_prompt:  | 
+   Quale operazione vorresti eseguire? 
+    1) Aggiunta
+    2) Sottrazione
+    3) Moltiplicazione
+    4) Divisione"
+  zero_division_error: | 
+   Impossibile dividere per zero
+   
+  adding: "....Sommando i due numeri...."
+  subtracting: "....Sottraendo i due numeri...."
+  multiplying: "....Moltiplicando i due numeri...."
+  dividing: "....Dividendo i due numeri...."
+  result_prompt: "Il risultato è %{result}"
+  invalid_answer: "Risposta non valida. È necessario immettere S per Sì o N per No"
+  perform_calculation: "Vuoi eseguire un altro calcolo? (S al calcolo di nuovo)"
+  thank_you: "Grazie per aver utilizzato la calcolatrice. Addio!"
