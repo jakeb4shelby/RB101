@@ -32,7 +32,7 @@ en:
   multiplying: "....Multiplying the two numbers"
   dividing: "....Dividing the two numbers...."
   result_prompt: "The result is %{result}"
-  perform_calculation: "Do you want to perform another calcuation? (Y to calculate again)"
+  perform_calculation: "Do you want to perform another calculation? (Y to calculate again)"
   invalid_answer: "Invalid answer. You must enter Y for Yes or N for No"
   thank_you: "Thank you for using calculator. Goodbye!"
 

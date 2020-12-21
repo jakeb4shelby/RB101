@@ -169,7 +169,7 @@ lang = language_choice(get_language)
 name_prompt(lang)
 name = get_name(lang)
 
-puts format(messages('greeting'), name: name)
+puts format(messages('greeting', lang), name: name)
 
 loop do
   number2 = " "
@@ -186,7 +186,7 @@ loop do
 
   calculation_message(operator, lang)
   result = get_result(operator, number1, number2)
-  puts format(messages('result_prompt'), result: result)
+  puts format(messages('result_prompt', lang), result: result)
 
   answer = new_calculation?(lang)
   break if answer == 'n'
@@ -194,4 +194,5 @@ loop do
 end
 
 clear_screen
-prompt("Thank you for using calculator. Goodbye!")
+# prompt("Thank you for using calculator. Goodbye!")
+puts format(messages('thank_you', lang))
