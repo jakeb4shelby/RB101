@@ -1,0 +1,28 @@
+welcome: |
+ Welcome to the Mortgage Calculator!
+ -----------------------------------
+principal_amount: |
+ Input the total loan amount
+ Example: For $100,000 input 100000
+apr: |
+ Please input the interest rate
+ Example: 5 for 5% or 2.5 for 2.5%
+invalid_number: "Hmm...that doesn't look like a valid number greater than zero"
+invalid_apr: "Please enter a valid interest rate"
+invalid_duration: "Please enter a whole number for the duration (in years)"
+loan_duration: |
+ What is the loan duration (in years)? 
+ Enter whole numbers only
+operator_prompt:  | 
+ What operation would you like to perform? 
+    1) Addition
+    2) Subtraction
+    3) Multiplication
+    4) Division
+greater_than_zero: "Must input a number greater than 0"
+monthly_payment: "Your monthly payment is %{"
+perform_calculation: |
+ Do you want to perform another mortgage calculation? 
+ (Y to calculate again or N to exit)
+invalid_answer: "Invalid answer. You must enter Y for Yes or N for No"
+thank_you: "Thank you for using the mortgage calculator. Goodbye!"
